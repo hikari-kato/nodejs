@@ -114,7 +114,7 @@ touch .bashrc
 
 「.bashrc」ファイルにパスを追加します。
 ~~~
-export PATH=$HOME/.nodebrew/current/bin:$PATH
+echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.bashrc
 ~~~
 
 設定ファイルの変更を反映します。
@@ -149,7 +149,7 @@ touch .zshrc
 
 「.zshrc」ファイルにパスを追加します。
 ~~~
-export PATH=$HOME/.nodebrew/current/bin:$PATH
+echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.zshrc
 ~~~
 
 設定ファイルの変更を反映します。
